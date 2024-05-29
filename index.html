@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container_form">
+            <form>
+                <div class="form_control">
+                    <lable for="firstName">
+                        <input type="text" placeholder="First Name" name="firstName" id="firstName">
+                        <div class="error_circle hide">!</div>
+                    </lable>
+                    <p class="error_text hide">First Name cannot be empty</p>
+                    </div>
+                    <div class="form_control">
+                    <lable for="lastName">
+                        <input type="text" placeholder="Last Name" name="lastName" id="lastName">
+                        <div class="error_circle hide">!</div>
+                    </lable>
+                    <p class="error_text hide">Last Name cannot be empty</p>
+                    </div>
+                    <div class="form_control">
+                    <lable for="email">
+                        <input type="email" placeholder="Email@example/com" name="email" id="email">
+                        <div class="error_circle hide">!</div>
+                    </lable>
+                    <p class="error_text hide">Email cannot be empty</p>
+                    </div>
+                    <div class="form_control">
+                    <lable for="password">
+                        <input type="password" placeholder="Password" name="password" id="password">
+                        <div class="error_circle hide">!</div>
+                        <div class="view_passwoord">o</div>
+                    </lable>
+                    <p class="error_text hide">Password cannot be empty</p>
+                    </div>
+                    <button type="submit" class="submitButton">CLAIM YOUR FREE TRIAL</button>
+                    <p id="policy_agreement">By clicking the button, you are agreeing to our <a href="#">Terms and services</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="error.js"></script>
+</body>
+</html>
