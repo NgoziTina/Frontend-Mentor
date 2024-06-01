@@ -25,10 +25,9 @@
   form{
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
-    margin: 2rem auto;
+     margin: 1rem ; 
     background-color: white;
     border-radius: 1rem;
     padding: 2rem; 
@@ -50,8 +49,8 @@ input[type=password],
 input[type=email],
 .submitButton{
     width: 100%;
-    padding: 1rem 1.5rem;
-    margin-bottom: 1.2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
     border-radius: 0.5rem;
     font-family: inherit;
     font-size: 1rem;
@@ -71,8 +70,8 @@ input[type=email],
     text-transform: uppercase;
     letter-spacing: 2px;
     cursor: pointer;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    /* margin-top: 16px auto;
+    margin-bottom: 16px auto; */
 } 
 .submitButton:hover{
     background-color: hsl(155, 12%, 30%);
@@ -126,7 +125,7 @@ lable{
     margin-top: 8px;
     text-align: right;
 }
-.view_passwoord{
+.fa-eye{
     width: 23px;
     height: 23px;
     font-size: 12px;
@@ -137,4 +136,10 @@ lable{
     align-items: center;
     padding: 4px 0 6px;
     cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+
+
+    
 }
